@@ -2,6 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*footer*/
+footer {
+    background-color: bisque;
+    font-weight: 600;
+    font-size: small;
+    color: brown;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+   text-align: justify ;
+}
+
+footer p {
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+.redes-sociales p { 
+    padding-bottom: 0;
+}
+
+.redes-sociales  {
+    size: 50px;
+}
+.bi {
+    color: black;
 }
 
 /*index*/
@@ -17,3 +47,94 @@
 
 
 /*contacto*/
+
+
+main {
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+form {
+   padding: 50px 55px;
+   box-shadow: 0 0 20px rbga(0 0 0 0.2)  ;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+  
+}
+
+.formulario-contacto1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 35px;
+    text-align: center ;
+    padding-bottom: 15px;
+}
+
+label {
+    color: cornflowerblue;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: left;
+}
+
+input ,textarea {
+ padding: 10px 20px;
+ border-radius: 50px;
+ background-color: hsl(160, 65%, 86%);
+ border: 2 px solid rgb(219, 213, 205);
+ color:cornflowerblue;
+ outline: none;
+}
+
+textarea {
+    border-radius: 30px;
+    margin-top: 10px;}
+
+input::placeholder, textarea::placeholder {
+    color: darkcyan;
+}
+
+.select-box {
+    display: inline-flex;
+    margin: 5px 5px;
+}
+ .select-box p {
+    color: darkblue ;
+    padding-right: 10px;
+    text-align: center;
+}
+    
+select {
+    border-radius: 10px;
+    color: darkblue
+}
+
+.check-box {
+    margin-top: 15px;
+    text-align: left;
+
+}
+.check-box label {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.btn {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    size: 60px;
+}
