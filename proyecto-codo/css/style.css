@@ -50,7 +50,48 @@ header img {
     text-decoration: underline
  }
 
+ main {
+    background-image: url(./imagenes2/fondo.jpg);
+    text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;  
+    justify-content: space-around;
+}
 
+main::before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(240, 248, 255, 0.493);   
+}
+
+.div-index{
+    position: relative;
+    opacity: 1;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 500; 
+}
+
+.index-mapa {
+    position: relative;
+    opacity: 1;
+}
+
+.index-mapa p {
+    font-weight: 500;
+    font-size: larger;
+}
 
 /*footer*/
 footer {
@@ -92,95 +133,21 @@ footer p {
 
 
 
-/*contacto*/
-
-
-main {
-    display: flex;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- 
-form {
-   padding: 50px 55px;
-   box-shadow: 0 0 20px rbga(0 0 0 0.2)  ;
-   border-radius: 20px;
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-  
-}
-
-.formulario-contacto1 {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 10px 0;
-}
-
-h2 {
-    color: darkblue;
-    font-size: 35px;
-    text-align: center ;
-    padding-bottom: 15px;
-}
-
-label {
-    color: cornflowerblue;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-weight: 600;
-    text-align: left;
-}
-
-input ,textarea {
- padding: 10px 20px;
- border-radius: 50px;
- background-color: rgb(245, 238, 229);
- border: 2 px solid rgb(219, 213, 205);
- color:rgba(67, 75, 187, 0.918);
- outline: none;
-}
-
-textarea {
-    border-radius: 30px;
-    margin-top: 10px;}
-
-input::placeholder, textarea::placeholder {
-    color: rgba(122, 153, 221, 0.918);
-}
-
-.select-box {
-    display: inline-flex;
-    margin: 5px 5px;
-}
- .select-box p {
-    color: darkblue ;
-    padding-right: 10px;
+/*main {
+    background-image: url("./imagenes2/fondo.jpg");
     text-align: center;
-}
-    
-select {
-    border-radius: 10px;
-    color: darkblue
-}
-
-.check-box {
-    margin-top: 15px;
-    text-align: left;
-
-}
-.check-box label {
-    color: darkblue;
-    font-size: 16px;
-    font-weight: lighter;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
 }
 
-.btn {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    size: 60px;
-}
+main::before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(240, 248, 255, 0.404);   
+}*/

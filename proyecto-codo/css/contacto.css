@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*header*/
+
+header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+header img {
+    height: 180px;
+    width: 600px;
+    padding-top: 15px;
+    padding-left: 25px;
+    
+}
+.header-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+   
+}
+.header-div nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    white-space: nowrap;
+    gap: 25px;
+
+}
+.header-div nav ul li {
+    list-style-type: none;   
+    font-size: x-large;
+    font-weight: 700;
+}
+ .header-div nav ul li a {
+    text-decoration: none;
+    flex-direction: row;
+    color: brown;
+ }
+
+ .header-div nav ul li a:hover{
+    text-decoration: underline
+ }
+
+
+/*contacto*/
+
+main {
+    background-image: url(./imagenes2/fondo.jpg);
+    text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+main::before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(240, 248, 255, 0.404);   
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+form {
+   padding: 50px 55px;
+   box-shadow: 0 0 20px rbga(0 0 0 0.2)  ;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+  
+}
+
+.formulario-contacto1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+}
+
+h2 {
+    color: rgb(5, 5, 75);
+    font-size: 35px;
+    text-align: center ;
+    padding-bottom: 15px;
+}
+
+label {
+    color: rgb(4, 21, 53);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: left;
+}
+
+input ,textarea {
+ padding: 10px 20px;
+ border-radius: 50px;
+ background-color: rgb(245, 238, 229);
+ border: 2 px solid rgb(219, 213, 205);
+ color:rgba(4, 12, 128, 0.918);
+ outline: none;
+}
+
+textarea {
+    border-radius: 30px;
+    margin-top: 10px;}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(4, 42, 122, 0.918);
+}
+
+.select-box {
+    display: inline-flex;
+    margin: 5px 5px;
+}
+ .select-box p {
+    color: rgb(4, 4, 90) ;
+    padding-right: 10px;
+    text-align: center;
+}
+    
+select {
+    border-radius: 10px;
+    color: rgb(6, 6, 82)
+}
+
+.check-box {
+    margin-top: 15px;
+    text-align: left;
+
+}
+.check-box label {
+    color: rgb(7, 7, 88);
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.btn {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    size: 60px;
+}
+
+/*footer*/
+footer {
+    background-color: bisque;
+    font-weight: 600;
+    font-size: small;
+    color: brown;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+   text-align: justify ;
+}
+
+footer p {
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+.redes-sociales p { 
+    padding-bottom: 0;
+}
+
+.redes-sociales  {
+    size: 50px;
+}
+.bi {
+    color: black;
+}
