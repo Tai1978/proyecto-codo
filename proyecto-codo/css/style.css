@@ -77,7 +77,7 @@ main::before {
 .div-index{
     position: relative;
     opacity: 1;
-    color: black;
+    color: rgb(138, 19, 19);
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     font-weight: 500; 
@@ -91,6 +91,7 @@ main::before {
 .index-mapa p {
     font-weight: 500;
     font-size: larger;
+    color: brown;
 }
 
 /*footer*/

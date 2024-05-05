@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*header*/
+
+header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+header img {
+    height: 180px;
+    width: 600px;
+    padding-top: 15px;
+    padding-left: 25px;
+    
+}
+.header-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+   
+}
+.header-div nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    white-space: nowrap;
+    gap: 25px;
+
+}
+.header-div nav ul li {
+    list-style-type: none;   
+    font-size: x-large;
+    font-weight: 700;
+}
+ .header-div nav ul li a {
+    text-decoration: none;
+    flex-direction: row;
+    color: brown;
+ }
+
+ .header-div nav ul li a:hover{
+    text-decoration: underline
+ }
+
+ main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-items: center;
+    padding:0.5em;
+ }
+
+h1{
+    color: brown;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   ;
+}
+ .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ 
+ .container div {
+    width:410px;
+    height: 100%;
+    margin: 10px;
+    padding: 0.5em;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: antiquewhite;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+ main div h3 {
+    margin: 0.5em 0em;
+    color: brown;
+ }
+
+ main div h4 {
+    font-size: 0.87;
+    margin: 0.5em 0em;
+    color: brown;
+ }
+
+ .container div button {
+    width: 80%;
+    border: none;
+    padding: 0.7em;
+    color: brown;
+    background-color: rgb(185, 148, 148);
+    margin-left: 35px;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+ }
+
+ .container div:hover{
+    transform: translateY(-10px);
+    box-shadow: 1.25px 1.25px 10px rgba(0,0,0,0.5);
+
+ }
+
+ img {
+    width: 100%;
+ }
+
+ /*footer*/
+footer {
+    background-color: bisque;
+    font-weight: 600;
+    font-size: small;
+    color: brown;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+   text-align: justify ;
+}
+
+footer p {
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+.redes-sociales p { 
+    padding-bottom: 0;
+}
+
+.redes-sociales  {
+    size: 50px;
+}
+.bi {
+    color: black;
+}
