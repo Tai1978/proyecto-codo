@@ -93,14 +93,14 @@ header img {
 
 .text-expandir{
     position: relative;
- /* overflow: hidden;*/
+    overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
 }
 
 .imagen-expandir{
     position: relative;
-    /* overflow: hidden;*/
+    overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
     border-radius: 7px;
@@ -108,7 +108,7 @@ header img {
 
 .abrir_cerrar {
     max-width: 500px;
-    transition: max-height 0.5s ease-in;
+    transition: 0.5s ease-in;
 }
 
 /* footer*/
