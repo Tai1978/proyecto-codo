@@ -170,7 +170,12 @@ select {
 }
 
 .error-text {
+    color: brown;
     visibility: hidden;
+}
+
+.formulario-contacto1.form-error .error-text{
+
 }
 
 /*footer*/
