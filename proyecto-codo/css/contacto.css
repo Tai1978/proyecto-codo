@@ -63,15 +63,6 @@ main {
 	position: relative;
 }
 
-main::before {
-	content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(240, 248, 255, 0.404);   
-}
 
 main {
     display: flex;
@@ -82,14 +73,14 @@ main {
  }
  
  h2 {
-    color: rgb(1, 5, 29);
-    font-size: 35px;
-    padding-top: 10px;
+    color: rgb(165, 172, 212);
+    font-size:xx-large;
+    padding-top: 20px;
 
 }
 
 form {
-   padding: 25px 55px;
+   padding: 15px 55px;
    box-shadow: 0 0 20px rbga(0 0 0 0.2)  ;
    border-radius: 20px;
    display: flex;
@@ -137,9 +128,7 @@ input::placeholder, textarea::placeholder {
     margin: 5px 5px;
 }
  .select-box p {
-    color: rgb(8, 8, 150) ;
-    position: relative;
-    opacity: 1;
+    color: rgb(4, 21, 53);
     padding-right: 10px;
     text-align: center;
 }
@@ -155,11 +144,9 @@ select {
 
 }
 .check-box label {
-    color: rgb(13, 13, 92) ;
+    color: rgb(165, 172, 212);
     font-size: 16px;
     font-weight: lighter;
-    position: relative;
-    opacity: 1;
 }
 
 .btn {
@@ -167,6 +154,11 @@ select {
     font-size: 20px;
     font-weight: 600;
     size: 60px;
+}
+
+.btn:hover {
+    color: brown;
+    cursor: pointer;
 }
 
 .error-text {
