@@ -78,10 +78,18 @@ main {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
  }
  
+ h2 {
+    color: rgb(1, 5, 29);
+    font-size: 35px;
+    padding-top: 10px;
+
+}
+
 form {
-   padding: 50px 55px;
+   padding: 25px 55px;
    box-shadow: 0 0 20px rbga(0 0 0 0.2)  ;
    border-radius: 20px;
    display: flex;
@@ -96,12 +104,7 @@ form {
     padding: 0 0 10px 0;
 }
 
-h2 {
-    color: rgb(5, 5, 75);
-    font-size: 35px;
-    text-align: center ;
-    padding-bottom: 15px;
-}
+
 
 label {
     color: rgb(4, 21, 53);
@@ -134,7 +137,9 @@ input::placeholder, textarea::placeholder {
     margin: 5px 5px;
 }
  .select-box p {
-    color: rgb(4, 4, 90) ;
+    color: rgb(8, 8, 150) ;
+    position: relative;
+    opacity: 1;
     padding-right: 10px;
     text-align: center;
 }
@@ -150,9 +155,11 @@ select {
 
 }
 .check-box label {
-    color: rgb(7, 7, 88);
+    color: rgb(13, 13, 92) ;
     font-size: 16px;
     font-weight: lighter;
+    position: relative;
+    opacity: 1;
 }
 
 .btn {
@@ -160,6 +167,10 @@ select {
     font-size: 20px;
     font-weight: 600;
     size: 60px;
+}
+
+.error-text {
+    visibility: hidden;
 }
 
 /*footer*/

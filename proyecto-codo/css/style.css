@@ -124,11 +124,10 @@ footer p {
 
 
 
-@media screen and (max-width:480){
+@media screen and (max-width:480) {
 
     .header{
-        display: flex;
-        flex-direction: column;
+        display:inline-block;
     }
 
    .header img {
@@ -136,45 +135,50 @@ footer p {
         width: 0%;
         padding-top: 5px;
         padding-left: 5px;
-     
     }
+
     .header-div {
         padding-top: 2px;
         padding-bottom: 2px;
         padding-right: 1px;
        
     }
+
     .header-div nav {
-        display: flex;
-        flex-direction: roww;
-        justify-content: right;
-        align-items: center;
-        white-space: nowrap;
-        gap: 25px;
-    
+        display:inline-block;
+        gap: 5px;
     }
+  .header-div nav li {
+    display: inline-block;
+  }
+
+
     .header-div nav ul li a {
-        list-style-type: none;   
-        font-size: medium;
-        font-weight: 300;
+        display: inline-block;
+        font-size:1.4em;
     }
 
 .div-index {
-    font-size: small;
+    font-size: 1.4em;
 }
 
-
-
-
     footer {
-        
         font-weight: 300;
         font-size: small;
         color: brown;
-        display: block;
-        flex-direction: column;
+        display:block;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
        text-align: justify ;
+       gap: 2px;
     }
+footer div {
+align-items: center;
+gap: 2px;
+}
+
+}
+
+@media scree and (max-width: 768px){
+
 }

@@ -79,14 +79,14 @@ header img {
 }
 
 
-.content-colapse section:nth-child(n) {
+.content-colapse div:nth-child(n) {
   text-align: center;
   position: relative;
   border: 1px grey;
   align-self: center;
 }
 
-.content-colapse section:nth-child(n) button{
+.content-colapse div:nth-child(n) button{
     margin: 30px 0 30px 0;
     padding: 10px 15px 10px 15px;
     border-style: none;

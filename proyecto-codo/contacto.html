@@ -17,26 +17,36 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="destinos.html" target="_blank">Destinos</a></li>
-                    <li><a href="ofertas.html"target="_blank">Ofertas</a></li>
+                    <li><a href="ofertas.html" target="_blank">Ofertas</a></li>
                     <li><a href="contacto.html" >Contacto</a></li>
                    
                 </ul>
             </nav>
-    
          </div>
     </header>
+    
     <main>
-        <form class="formulario-contacto">
-            <h2>Contacto</h2>
-              <div class="formulario-contacto1">
-              <label for="name">Nombre</label>
-              <input type="text" name="name" id="name" placeholder="Nombre">
-              <label for="telefono">Teléfono</label>
-              <input type="tel" name="telefono" id="telefono" placeholder="54-11-xxxxxxxx">
-              <label for="mail">Email</label>
-              <input type="email" name="email" id="email" placeholder="xx@xx.com">
-              <label for="mensaje"></label>
-              <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escriba su mensaje"></textarea>
+        <h2>Contacto</h2>
+        <div>
+        <form class="formulario-contacto" id="form">
+            <div class="formulario-contacto1">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <small class="error-text">Ingrese un monbre</small>
+            </div>
+            <div class="formulario-contacto1"> 
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="54-11-xxxxxxxx">
+                <small class="error-text">Ingrese un nro valido</small>
+             </div>
+             <div class="formulario-contacto1"> 
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="xx@xx.com">
+                <small class="error-text">Ingrese un email valido</small>
+            </div>
+            <div class="formulario-contacto1"> 
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escriba su mensaje"></textarea>
             </div>
             <div class="select-box">
               <p>Horario para contactarse con ud</p>
@@ -50,8 +60,9 @@
                 <input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox">Quiero recibir promociones de viajes</label> 
             </div>
-                <input class="btn" type="submit" value="Enviar">
+                <input class="btn" type="submit" id="submit-btn"  value="Enviar">
         </form>
+    </div>
     </main>  
     <footer>
         <p>Copyright 2024©</p>
