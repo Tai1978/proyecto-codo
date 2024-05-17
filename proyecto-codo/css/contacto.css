@@ -60,9 +60,7 @@ main {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: relative;
 }
-
 
 main {
     display: flex;
@@ -73,10 +71,9 @@ main {
  }
  
  h2 {
-    color: rgb(165, 172, 212);
+    color: rgb(4, 21, 53);
     font-size:xx-large;
     padding-top: 20px;
-
 }
 
 form {
@@ -95,6 +92,9 @@ form {
     padding: 0 0 10px 0;
 }
 
+.formulario-contacto1 input ,textarea:focus {
+    outline-color: rgb(38, 38, 223);
+}
 
 
 label {
@@ -112,7 +112,7 @@ input ,textarea {
  background-color: rgb(245, 238, 229);
  border: 2 px solid rgb(219, 213, 205);
  color:rgba(4, 12, 128, 0.918);
- outline: none;
+ 
 }
 
 textarea {
@@ -128,7 +128,7 @@ input::placeholder, textarea::placeholder {
     margin: 5px 5px;
 }
  .select-box p {
-    color: rgb(4, 21, 53);
+    color: rgb(165, 172, 212);
     padding-right: 10px;
     text-align: center;
 }
@@ -150,15 +150,22 @@ select {
 }
 
 .btn {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    size: 60px;
+   font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    color: rgb(4, 21, 53);
+    border-radius: 25px;
+    padding: 10px;
 }
 
 .btn:hover {
-    color: brown;
     cursor: pointer;
+}
+
+.btn:disabled{
+    background: antiquewhite;
+    color: brown;
+
 }
 
 .error-text {
@@ -166,8 +173,16 @@ select {
     visibility: hidden;
 }
 
-.formulario-contacto1.form-error .error-text{
+.formulario-contacto1 .form-error input{
+border-bottom: 2px solid red;
+}
 
+.formulario-contacto1 .form-error .error-text{
+    visibility: visible;
+}
+
+.formulario-contacto1 .form-success input {
+    border-bottom: 2px solid blue;
 }
 
 /*footer*/

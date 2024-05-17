@@ -57,7 +57,13 @@ header img {
     flex-wrap: wrap; 
     align-items: center;
     padding:0.5em;
- }
+    background-image: linear-gradient(
+            to bottom,
+            white,
+            rgb(221, 200, 172)
+        );
+    }
+
 
 h1{
     color: brown;

@@ -51,6 +51,15 @@ header img {
  }
 
 /*main*/
+
+main {
+    background-image: linear-gradient(
+            to bottom,
+            white,
+            rgb(221, 200, 172)
+        );
+}   
+
 .content{
     width: 100%;
     min-height: 100vh;
