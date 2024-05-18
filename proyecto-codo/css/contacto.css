@@ -170,14 +170,17 @@ select {
 
 .error-text {
     color: brown;
-    visibility: hidden;
 }
 
 .formulario-contacto1 .form-error input{
 border-bottom: 2px solid red;
 }
 
-.formulario-contacto1 .form-error .error-text{
+.formulario-contacto .form-success .error-text {
+    visibility: hidden;
+}
+
+.formulario-contacto .form-error .error-text {
     visibility: visible;
 }
 
